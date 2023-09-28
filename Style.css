@@ -1,0 +1,35 @@
+body
+{
+    background-image: linear-gradient(to right bottom ,red,rgb(0, 23, 128));
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+ 
+.clock
+{
+  
+
+    color:yellow;
+    margin: 16.9rem auto;
+    font-size: 4em;
+    text-align: center;
+
+}
+.clock span{
+    background-color: rgba(167, 147, 147, 0.2);
+    padding:2rem;
+  
+}
+
+@media screen and (max-width: 850px)
+{
+.clock{
+    font-size:2rem;
+    height:50vh;
+
+
+}
+}
+
+    
